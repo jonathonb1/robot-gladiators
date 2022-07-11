@@ -16,5 +16,5 @@ function fight() {
     window.alert("The fight has begun!");
 }
 
-// fight();
+// fight() let check;
 
