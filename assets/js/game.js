@@ -7,9 +7,12 @@ var enemyNames = ['Roborto', 'Amy Android', 'Robo Trumble'];
 var enemyHealth = 50;
 var enemyAttack = 12;
 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> be9d3e12ea3c30050dec827e313acc2c68fff70d
 // fight function (now with parameter for enemy's name) 
 var fight = function(enemyName) {
   while (playerHealth > 0 && enemyHealth > 0) {
@@ -25,14 +28,22 @@ var fight = function(enemyName) {
       if (confirmSkip) {
         window.alert(playerName + ' has decided to skip this fight. Goodbye!');
         // subtract money from playerMoney for skipping
+<<<<<<< HEAD
         playerMoney = math.max(0, playerMoney -10);
+=======
+        playerMoney = playerMoney - 10;
+>>>>>>> be9d3e12ea3c30050dec827e313acc2c68fff70d
         console.log("playerMoney", playerMoney)
         break;
       }
     }
 
     // remove enemy's health by subtracting the amount set in the playerAttack variable
+<<<<<<< HEAD
     enemyHealth = Math.max(0, enemyHealth - playerAttack);
+=======
+    enemyHealth = enemyHealth - playerAttack;
+>>>>>>> be9d3e12ea3c30050dec827e313acc2c68fff70d
     console.log(
       playerName + ' attacked ' + enemyName + '. ' + enemyName + ' now has ' + enemyHealth + ' health remaining.'
     );
@@ -51,7 +62,11 @@ var fight = function(enemyName) {
     }
 
     // remove players's health by subtracting the amount set in the enemyAttack variable
+<<<<<<< HEAD
     playerHealth = Math.max(0, playerHealth - enemyAttack);
+=======
+    playerHealth = playerHealth - enemyAttack;
+>>>>>>> be9d3e12ea3c30050dec827e313acc2c68fff70d
     console.log(
       enemyName + ' attacked ' + playerName + '. ' + playerName + ' now has ' + playerHealth + ' health remaining.'
     );
@@ -67,9 +82,12 @@ var fight = function(enemyName) {
   } // end of while loop
 }; // end of fight function
 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> be9d3e12ea3c30050dec827e313acc2c68fff70d
 // function to start a new game
 var startGame = function() {
   // reset player stats
