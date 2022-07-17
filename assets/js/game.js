@@ -1,4 +1,4 @@
-\var playerName = window.prompt("What is your robot's name?");
+var playerName = window.prompt("What is your robot's name?");
 var playerHealth = 100;
 var playerAttack = 10;
 var playerMoney = 10;
@@ -8,8 +8,11 @@ var enemyHealth = 50;
 var enemyAttack = 12;
 
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> feature/initial-game
 // fight function (now with parameter for enemy's name) 
 var fight = function(enemyName) {
   while (playerHealth > 0 && enemyHealth > 0) {
