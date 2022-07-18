@@ -1,11 +1,4 @@
-<<<<<<< HEAD
-var playerName = window.prompt("What is your robot's name?");
-var playerHealth = 100;
-var playerAttack = 10;
-var playerMoney = 10;
-=======
 /* GAME FUNCTIONS */
->>>>>>> f6a0df501d9735356300e9602fbabc884b550afe
 
 // function to generate a random numeric value
 var randomNumber = function(min, max) {
@@ -14,14 +7,10 @@ var randomNumber = function(min, max) {
   return value;
 };
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 // function to check if player wants to fight or skip
 var fightOrSkip = function() {
   // ask player if they'd like to fight or run
   var promptFight = window.prompt('Would you like to FIGHT or SKIP this battle? Enter "FIGHT" or "SKIP" to choose.');
->>>>>>> f6a0df501d9735356300e9602fbabc884b550afe
 
   // validate prompt answer
   if (promptFight === "" || promptFight === null) {
@@ -30,18 +19,8 @@ var fightOrSkip = function() {
     return fightOrSkip();
   }
 
-<<<<<<< HEAD
-=======
->>>>>>> feature/initial-game
-// fight function (now with parameter for enemy's name) 
-var fight = function(enemyName) {
-  while (playerHealth > 0 && enemyHealth > 0) {
-    // ask player if they'd like to fight or run
-    var promptFight = window.prompt('Would you like to FIGHT or SKIP this battle? Enter "FIGHT" or "SKIP" to choose.');
-=======
   // convert promptFight to all lowercase so we can check with less options
   promptFight = promptFight.toLowerCase();
->>>>>>> f6a0df501d9735356300e9602fbabc884b550afe
 
   if (promptFight === "skip") {
     // confirm player wants to skip
